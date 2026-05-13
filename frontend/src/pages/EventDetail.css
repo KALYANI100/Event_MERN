@@ -1,0 +1,40 @@
+.event-detail {
+  max-width: 640px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.detail-hero h1 {
+  margin: 0 0 0.5rem;
+}
+
+.detail-date {
+  color: var(--accent);
+  font-weight: 600;
+  margin: 0 0 0.25rem;
+}
+
+.detail-location {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+}
+
+.detail-body {
+  white-space: pre-wrap;
+  margin: 0 0 1rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.register-panel {
+  margin-top: 1.5rem;
+}
+
+.register-panel h2 {
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+}

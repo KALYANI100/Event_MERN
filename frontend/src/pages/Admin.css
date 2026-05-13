@@ -1,0 +1,107 @@
+.admin-page h1 {
+  margin: 0 0 0.35rem;
+}
+
+.admin-intro {
+  margin: 0 0 1.5rem;
+}
+
+.admin-layout {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .admin-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.admin-form-section h2,
+.admin-list-section h2 {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 520px) {
+  .field-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.admin-event-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.admin-event-list > li {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.admin-event-row {
+  flex: 1;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.admin-event-row:hover {
+  border-color: rgba(56, 189, 248, 0.35);
+}
+
+.admin-event-row.selected {
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
+
+.regs-section {
+  margin-top: 1.5rem;
+}
+
+.regs-section h2 {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+}
+
+.regs-table-wrap {
+  overflow-x: auto;
+}
+
+.regs-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.regs-table th,
+.regs-table td {
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.regs-table th {
+  color: var(--muted);
+  font-weight: 600;
+}
