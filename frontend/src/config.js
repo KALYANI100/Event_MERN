@@ -1,0 +1,1 @@
+export const API_BASE_URL = 'http://4.186.24.251/:5000/api'; // Replace localhost with your backend IP address if needed
